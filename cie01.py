@@ -2,7 +2,7 @@ import sys
 
 if len(sys.argv) != 4:
     print("Error: Invalid Arguments")
-    print("Usage: python cie01.py <service_date> <service_amount> <service_center>")
+    print("Usage: python invoice.py <service_date> <service_amount> <service_center>")
 else:
     service_date = sys.argv[1]
     service_amount = sys.argv[2]
