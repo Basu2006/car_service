@@ -2,7 +2,7 @@ import sys
 
 default_date = "01-01-2025"
 default_amount = "1000"
-default_center = "Default Center"
+default_center = "BMW"
 
 if len(sys.argv) == 4:
     service_date = sys.argv[1]
