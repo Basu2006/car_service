@@ -1,6 +1,5 @@
 import sys
 
-
 if len(sys.argv) != 4:
     print("Error: Invalid Arguments")
     print("Usage: python invoice.py <service_date> <service_amount> <service_center>")
@@ -13,4 +12,3 @@ else:
     print(f"Service Date   : {service_date}")
     print(f"Service Amount : {service_amount}")
     print(f"Service Center : {service_center}")
-
